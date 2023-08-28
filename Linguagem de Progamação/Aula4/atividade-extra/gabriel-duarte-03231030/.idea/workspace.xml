@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5875a6cf-8727-4243-9843-79f4219df43f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/AppPizas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/AppPizas.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/PedidoPizza.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/PedidoPizza.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/AppPizasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/AppPizasKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/PedidoPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/PedidoPizza.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2UZyPAEgHO3UQe6BXGutpKE1mpx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vayon24/Desktop/sptech/2-sem-SPTech/Linguagem de Progamação/Aula4/atividade-extra/gabriel-duarte-03231030"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="AppEmpregadoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppEmpregadoKt" />
+      <module name="gabriel-duarte-03231030" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.AppEmpregadoKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5875a6cf-8727-4243-9843-79f4219df43f" name="Changes" comment="" />
+      <created>1693161372409</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1693161372409</updated>
+    </task>
+    <servers />
+  </component>
+</project>
