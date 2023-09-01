@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5875a6cf-8727-4243-9843-79f4219df43f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="1d752efc-80ce-4de4-a077-06404fc4ce4d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../03231030-gabriel-duarte/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../03231030-gabriel-duarte/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,51 +27,51 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="useMavenConfig" value="true" />
-      </MavenGeneralSettings>
-    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="workspaceImportEnabled" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectId" id="2UZyPAEgHO3UQe6BXGutpKE1mpx" />
+  <component name="ProjectId" id="2Una5tjCylFFAODqSlOixOXOqev" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vayon24/Desktop/sptech/2-sem-SPTech/Linguagem de Progamação/Aula4/atividade-extra/gabriel-duarte-03231030&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Vayon24/Desktop/sptech/2-sem-SPTech/Linguagem de Progamação/Aula4/atividade-extra/construtores/src/main/kotlin"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Vayon24\Desktop\sptech\2-sem-SPTech\Linguagem de Progamação\Aula4\atividade-extra\construtores\src\main\kotlin" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="AppEmpregadoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppEmpregadoKt" />
-      <module name="gabriel-duarte-03231030" />
+    <configuration name="AppEstudantesKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AppEstudantesKt" />
+      <module name="construtores" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Kotlin.AppEmpregadoKt" />
+        <item itemvalue="Kotlin.AppEstudantesKt" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="5875a6cf-8727-4243-9843-79f4219df43f" name="Changes" comment="" />
-      <created>1693161372409</created>
+      <changelist id="1d752efc-80ce-4de4-a077-06404fc4ce4d" name="Changes" comment="" />
+      <created>1693577624191</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1693161372409</updated>
+      <updated>1693577624191</updated>
     </task>
     <servers />
   </component>
