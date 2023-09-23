@@ -15,7 +15,8 @@ print("o desvio padrão do yield é {}".format(st.stdev(yieldY)))
 
 tempoX = np.array([18.0, 5.0, 11.0, 9.0, 14.0, 6.0, 13.0, 8.0, 22.0, 15.0, 7.0, 20.0, 19.0, 16.0, 21.0, 10.0, 17.0, 12.0])
 
-a_coef_angular, b_coef_linear = st.linear_regression(tempoX, yieldY)
+a_coef_angular, b_coef_linear = st.linear_regression(tempoX, yieldY)
+
 print('Equação da reta: y = {:.04f}x + {:.04f}'.format(a_coef_angular, b_coef_linear))
 
 def formula(a,b,x):
@@ -63,7 +64,8 @@ def graph2(a,b):
  plt.grid()
  plt.show()
 
-a_coef_angular, b_coef_linear = st.linear_regression(velocidadeX, brilhoY)
+a_coef_angular, b_coef_linear = st.linear_regression(velocidadeX, brilhoY)
+
 print('Equação da reta: y = {:.04f}x + {:.04f}'.format(a_coef_angular, b_coef_linear))
 
 graph2(a_coef_angular, b_coef_linear)
