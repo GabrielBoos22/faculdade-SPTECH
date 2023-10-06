@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9ee945e-439c-442b-9a1f-e12237190933" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Aula8/atividade/atividade-musica-banco/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Aula8/atividade/atividade-musica-banco/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Aula8/atividade/atividade-musica-banco/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Sistemas Operacionais/Semana07/Atividade-EC2.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Sistemas Operacionais/Semana08/Atividade 10.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Sistemas Operacionais/Semana08/~$ividade 10.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +49,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Vayon24/Desktop/sptech/2-sem-SPTech/Linguagem de Progamação/Aula9/atividade-musica-banco",
+    "last_opened_file_path": "C:/Users/Vayon24/Desktop/sptech/2-sem-SPTech/Linguagem de Progamação/Aula8/banco-jdbc",
     "run.code.analysis.last.selected.profile": "pProject Default"
   }
 }]]></component>
