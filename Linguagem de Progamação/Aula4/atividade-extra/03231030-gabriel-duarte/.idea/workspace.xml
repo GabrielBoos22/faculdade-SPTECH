@@ -5,13 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5875a6cf-8727-4243-9843-79f4219df43f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../gabriel-duarte-03231030/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gabriel-duarte-03231030/src/main/kotlin/AppEmpregado.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../gabriel-duarte-03231030/src/main/kotlin/Empregado.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/AppPizas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/AppPizas.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/PedidoPizza.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/src/main/kotlin/PedidoPizza.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/AppPizasKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/AppPizasKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/PedidoPizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../atividade-poo/aula2508-segundaparte/target/classes/PedidoPizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +43,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Vayon24/Desktop/sptech/2-sem-SPTech/Linguagem de Progamação/Aula4/atividade-extra/gabriel-duarte-03231030"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Vayon24/Desktop/sptech/2-sem-SPTech/Linguagem de Progamação/Aula4/atividade-extra/gabriel-duarte-03231030&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="AppEmpregadoKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppEmpregadoKt" />

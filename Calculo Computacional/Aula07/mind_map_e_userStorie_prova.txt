@@ -1,0 +1,24 @@
+1- Funcionalidades do sistema -> Suporte para os clientes; agendamento de consultas -> seleção de especialidade -> seleção de horários disponiveis -> consulta marcada com dentista apto; 	
+consultas salvas em históricos, 
+2- Automatização de processos -> agendamento de autoatendimento por parte do cliente -> diminuição do tempo de espera e organizacional por parte dos funcionarios -> 
+3- Infraestutura de TI -> Banco de dados disponível e com a modelagem lógica dos dados; Site com front end com tela de facil manuseio e entendimento do usuário, e back-end endcapaz de listar horários prontos, associar o motivo da consulta com a especialidade do dentista, e salvar consultas no banco; Suporte de TI apto para abertura de chamados e sistema de atendimento.  	
+4- Fluxo ou I/O -> entrada de dados: Cliente entra no site e escolhe a opção agendar consulta -> cliente escreve o motivo da consulta, selecionando a especialidade e seleciona os horários disponiveis e os dentistas aptos a atender; processamento: dados recebidos e enviados ao banco de dados, para organização dos dados e retorno 201 no http. saída: sistema sinaliza no front end que a consulta foi marcada 
+5- Benefícios -> agilidade na agendamento de consultas e procedimentos -> marcação, alteração e exclusão de dados; facilidade de visualização de agendamentos para: pacientes, dentistas, funcionarios; aumento da produtividade pelo menor tempo-> maior faturamento
+user stories:
+
+Seleção da especialidade com base no problema do usuário, caso não se saiba a especialidade exemplo: Necessidade de extração de sisos, especialidade bucomaxilo, cirurgião buco maxilo facial. Com opções de motivos para a consulta ja automaticos, e se não tiver ter a opção outros, por onde o atendente pode ler após a marcação da consulta e já selecionar a especialidade.
+
+Sistema para cobrir convenios e fazer o reembolso automático
+
+
+Eu, Gabriel Boos Duarte, analista de requisitos aqui na Good Tooth, desejo que no sistema tenha a automatização 
+da escolha entre a especialidade alinhada com o motivo do paciente, para que pessoas que não saibam de 
+qual especialidade se trata o tratamento que ela deve ser acompanhada, tenham sua especialidade encaminhada auto-
+maticamente. Ex: estração de sisos, é de especialidade buco-maxilo, referencindo um cirurgião bucomaxilo da Good Tooth.
+
+Para que o público da Good Tooth, em Bocaiúva, tenha condições 
+
+Eu como sócio aqui na Good Tooth, tenho o interesse que o sistema tenha a funcionalidade de pedir reembolsos médicos a 
+planos de sáude que cobrem o tipo de consulta marcada, para que assim a Good Tooth possa receber todo o tipo de público
+no atendimento, por exemplo: aqueles que não tem o interesse em pagar consulta particular, mas possuem o convenio 
+que cobre essa funcionalidade.
