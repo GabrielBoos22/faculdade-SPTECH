@@ -17,5 +17,4 @@ fun main() {
     JOptionPane.showMessageDialog(null,"Voce tem $ano anos de vida")
     JOptionPane.showMessageDialog(null,"Voce tem $dias dias de vida")
 
-
 }

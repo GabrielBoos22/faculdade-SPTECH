@@ -31,6 +31,7 @@ fun main() {
         } else if(opcao == "3"){
             val id = JOptionPane.showInputDialog("Qual id?").toInt()
             val deletado = repositorio.deletar(id)
+
             JOptionPane.showMessageDialog(null,"Deletado: $deletado")
         } else{
             break

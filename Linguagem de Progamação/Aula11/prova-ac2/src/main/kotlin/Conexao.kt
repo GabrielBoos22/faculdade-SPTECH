@@ -1,7 +1,7 @@
 import org.apache.commons.dbcp2.BasicDataSource
 import org.springframework.jdbc.core.JdbcTemplate
 
-class   Conexao {
+class Conexao {
 
     fun conectar(): JdbcTemplate {
         val dataSource = BasicDataSource()
