@@ -1,7 +1,7 @@
 package agregacao
 
 class SaladaFrutas {
-
+    //Agregação
     val frutas = mutableListOf<Fruta>()
 
     fun adicionarFruta(novaFruta: Fruta) {

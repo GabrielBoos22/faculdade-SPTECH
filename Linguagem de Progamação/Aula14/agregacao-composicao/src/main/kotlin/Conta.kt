@@ -3,6 +3,7 @@ package composicao
 import java.time.LocalDateTime
 
 class Conta {
+    // Composição
     val abertura:LocalDateTime = LocalDateTime.now()
 
     val itens = mutableListOf<ItemConta>()
