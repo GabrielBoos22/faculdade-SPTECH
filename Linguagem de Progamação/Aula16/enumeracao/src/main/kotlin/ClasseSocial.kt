@@ -1,0 +1,28 @@
+enum class ClasseSocial(
+    val descricao: String, val minimo:Double, val maximo:Double
+) {
+
+    A("Ricos", 30_000.0, Double.MAX_VALUE),
+    B("Classe média alta", 20_000.0,
+        30_000.0),
+    C("Classe media baixa", 7_500.0, 20_000.0),
+    D("Pobre", 1_500.0,7_500.0),
+    E("Abaixo da linha da pobreza", 0.0, 1_500.0);
+
+    companion object{
+        fun aPartirDaRenda(renda: Double): ClasseSocial?{
+            values().forEach{
+                if(renda >= it.minimo && renda < it.maximo){
+                    return it
+                }
+            }
+            // aqui nós LANCAMOS, ou seja, PROVOCAMOS uma esceção
+            throw IllegalArgumentException(
+                "$renda não existe em nenhuma classe"
+                /* throw RuntimeException("$renda não existe em nenhuma classe")*/
+            )
+        }
+    }
+
+
+}
