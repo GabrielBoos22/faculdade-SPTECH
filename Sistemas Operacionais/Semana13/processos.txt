@@ -1,0 +1,88 @@
+Todo processo é um programa em execução, e cada processo tem um conjunto de estados.
+O SO é responsável pelo gerenciamento de todas as informações necessárias para a execução de
+qualquer programa.
+Tipos de Sistemas:
+Metodologia de Execução:
+Processos são entidades independentes.
+Cada um possui permissões de acesso e atributos (características).
+No Linux, um processo é uma instância de um software em execução, ou seja, um programa que
+está sendo usado. Em outros sistemas, os processos também ganham o nome de tarefas (tasks).
+No Windows, temos o Gerenciador de Tarefas, que auxilia por exemplo a fechar um aplicativo que
+travou ou está em estado indesejável.
+Em Linux, um sistema multitarefa, também possui recursos semelhantes.
+MonoTarefa
+Permite a execução de um único programa/tarefa.
+Somente um programa pode ser carregado para a
+memória
+MultiTarefas
+Permite a execução de vários programas/tarefas.
+Permite que vários programas sejam carregados
+para a memória.
+Cooperativa
+O sistema operacional nunca inicia a alternância de contexto do programa em execução para outro programa.
+Preemptiva
+O sistema operacional pode iniciar uma mudança de contexto do programa em execução para outro programa.
+Multithreading
+Executa mais do que uma tarefa de um único programa.
+Tarefas distintas são criadas nos programas em execução.
+TOP (top - display Linux processes)
+Execute no Terminal:
+$ top
+O comando top é a maneira mais comum de verificar o uso de processos do sistema e quais deles
+estão consumindo mais memória ou processamento.
+Estados dos processos ou tasks:
+1. Ready (scheduler tasks kernel)
+2. Running
+3. Sleeping (not use)
+4. Stopped
+5. Zombie (PPID is kill)
+6. Waiting (start and stop thread)
+7. Dead (comand kill)
+Vamos iniciar um processo e parar.
+Execute como root
+# vi
+E depois dê Ctrl + z (comando que suspende o processo, diferente do Ctrl + c que encerra o
+processo)
+Veja que o processo do editor de vi foi iniciado e depois parado.
+Novamente execute o comando
+# top
+Observe os estados dos processos:
+1 processo rodando, 6 em sleeping, 4 stopped e 0 em zombie
+Temos o total de memória RAM usada e livre
+Temos o total de memória ou área de swap ocupada e livre.
+PID é o número do processo.
+User: a qual usuário está associado aquele PID, é o proprietário daquele processo.
+PR: Prioridade Real sob a perspectiva do kernel. PR pode variar entre -20 a +20, sendo que – 20
+tem uma prioridade mais alta e +20 prioridades mais baixa.
+Quando o valor é igual a zero é neutro/padrão.
+Em linux temos 140 prioridades, que podem ser classificadas:
+Alto: -20 -100
+Padrão: 0 120
+Inferior: +19 +139
+NI – nice prioridade do comando
+Execute o comando
+# nice -n -20 vi
+Execute o comando:
+# nice -n 20 vi
+O VIRT é a quantidade total de memória utilizada em cada processo, incluído bibliotecas,
+chamadas e cálculos.
+O RES é a memória residente, sem considerar as trocas.
+O SHR é a memória compartilhada entre processos.
+Em S, temos o status do processo: R reflete processo rodando, S reflete o processo sleeping e T
+reflete o processo stopped.
+Agora entre no editor vi novamente e depois pare este processo e:
+Execute o comando:
+# jobs
+# jobs -l (exibe o nome e o número de cada processo)
+# jobs -s (exibe o nome de cada processo)
+# jobs -p (exibe o número de cada processo)
+Vamos agora recordar sobre o comando de informações dos processos:
+ps
+Exibe informações sobre os processos ativos
+ps [opções]
+-a exibe informações de outros usuários
+-u exibe o nome do usuário e a hora de início
+-x exibe processos não associados ao terminal
+-l exibe linhas detalhadas
+-e exibe todos os processos ativos
+ps -aux

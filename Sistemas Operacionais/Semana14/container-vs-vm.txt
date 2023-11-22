@@ -1,0 +1,120 @@
+
+Marcio Santana
+marcio.santana@sptech.school
+▪ O que é Container?
+▪ Arquitetura Virtual Machine vs Container
+▪ Arquitetura Virtual Machine
+▪ Arquitetura Container
+▪ Orquestração de Container
+▪ Observações do Container
+Em computação, virtualização é o ato de criar uma versão
+virtual de algo, incluindo a virtualização de uma
+plataforma de hardware, sistema operacional, dispositivo
+de armazenamento ou recursos de rede.
+Vantagens
+• Escalabilidade
+• Acessos Simultâneos
+• Otimização da Infraestrutura
+Tudo aquilo que o projeto/software necessita para:
+Desenvolver, Implementar e Funcionar, tais como processo, orientações,
+ferramentas, modelos e infraestrutura (hardware e software)
+Infraestruturas
+Ambiente de
+Teste
+Ambiente de
+Produção
+Ambiente de
+Desenvolvimento
+• Individual - Local
+(Espaço de
+Trabalho)
+• Integração de
+Código e
+Repositórios
+• Integração com
+Sistemas
+• Performance
+• Disponibilidade
+• Pipeline CI/CD
+• Funcionamento
+
+São uma abstração na camada do
+software que empacota código de
+software com todos os componentes
+necessários juntos.
+CPU, RAM, DISCO, REDE
+HOST OS
+HYPERVISOR
+HARDWARE
+HOST OS
+GUST OS GUST OS
+BINS
+LIBS BINS/LIBS
+APP 1
+APP 2
+APP 3
+CONTAINER ENGINE
+HARDWARE
+BINS/LIBS BINS
+LIBS
+APP 1 APP 2
+Mysql:5.7 Mysql:8 Java 8 ... n
+
+Porque os desenvolvedores
+focam na lógica e nas
+dependências do aplicativo,
+enquanto as equipes de
+operações de TI podem focar
+na implantação e no
+gerenciamento em vez de nos
+detalhes do aplicativo, como
+versões de software e
+configurações específicas.
+Os contêineres podem ser
+executados em praticamente
+qualquer lugar, facilitando
+muito o desenvolvimento e a
+implantação: SO Linux,
+Windows e Mac, em máquinas
+virtuais ou em servidores
+físicos, na máquina de um
+desenvolvedor ou em data
+centers no local e, obviamente,
+na nuvem pública.
+Os contêineres virtualizam
+recursos de CPU, memória,
+armazenamento e rede no nível
+do sistema operacional,
+oferecendo aos
+desenvolvedores uma
+visualização do SO isolado
+logicamente de outros
+aplicativos.
+Portabilidade de cargas
+de trabalho
+Isolamento de
+aplicativos
+O que são contêineres? | Google Cloud
+What is a Container? - Docker
+Vários contêineres podem ser executados na mesma
+máquina e compartilhar o kernel do sistema
+operacional com outros contêineres, cada um
+executando como processos isolados no espaço do
+usuário.
+Os contêineres ocupam menos espaço do que as VMs
+então, podem lidar com mais aplicativos, e exigem
+menos VMs e sistemas operacionais.
+• Encapsular uma aplicação em um pacote único e leve chamado contêiner,
+então os contêineres são muito mais leves do que as VMs;
+• Executar um container precisa de menos recursos que uma VM.
+• Provisionar um container somente toma alguns segundos enquanto que uma
+VM precisa esperar carregar o SO e depois a aplicação desejada.
+• Containers são mais baratos por precisarem de menos recursos.
+• Containers hoje são uma grande opção para micro serviços.
+• Os contêineres compartilham o mesmo kernel, se o kernel tem problemas os
+contêineres também terá. Isso acontece por que o ambiente do container é
+menos apartado que uma VM.
+• Não é possível executar aplicação com interface gráfica dentro do container.
+Laboratório
+marcio.santana@sptech.school
+Marcio Santana

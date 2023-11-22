@@ -1,0 +1,113 @@
+4. Gerenciamento de processos e tarefas
+4.3 Ciclo de vida processos – gestão e hierarquia
+4.4 Threads: conceitos, modelos e programação
+Antes de iniciarmos vamos revisar as repostas da atividade aula anterior item 5, a e b.
+a) Na tela abaixo o que significa Ss e TN na coluna STAT, explique
+ESTADOS DOS PROCESSOS
+D - Uninterruptible sleep (usually IO) – processo em modo sleepping initerrupto (em geral
+relativos a E/S) – seminterrupção contínua.
+R - Running or runnable (on run queue) – rodando ou em execução (na fila de execução).
+S -Interruptible sleep (waiting for an event to complete) – Interrupção momentânea ( em
+geral enquantoaguarda a conclusão de um evento.
+T - Stopped, either by a job control signal or because itis being traced –interrompido por um sinal de
+controle ou por causa de algo que é rastreado.
+X - dead (should never be seen) - morto
+Z - Defunct ("zombie") process, terminated but not reaped by its parent. Processo morto,
+relativo ao processopai.
+Os subcaracteres são:
+N -low-priority (nice to other users) – baixa prioridade, fornecendo-a processos de outros usuários
+L - has pages locked into memory (for real-time and custom IO) – mostra que há páginas bloqueadas na
+memória.
+s - is a session leader – mostra se a sessão é líder. Exemplo do shell ou de um bash. Ambos são
+pai porque podem ser executados por diferentes grupos de usuários. Neste caso a sessão é o
+líder, se kill na sessão, kill em todos os processos filhos.
+l-is multi-threaded – processos multiencadeados
+RSS é a sigla para Resident Set Size. VSZ é a Virtual Memory Size
+b) O que significa ADDR SZ e WCHAN na tela abaixo, explique
+%CPU - Quanto da CPU o processo está usando
+%MEM - Quanta memória o processo está usando
+ADDR - Endereço de memória do processo
+C ou CP - Informações de uso e agendamento da CPU
+CMD - Nome do processo, incluindo argumentos, se houver
+NI – nice
+PID - Número de identificação do processo
+PPID - Número de identificação do processo pai do processo
+PRI - Prioridade do processo
+TIME – tempo de uso total da CPU
+TT ou TTY - Terminal associado ao processo
+WCHAN (Waiting Channel) – (rotina do kernel para processo waiting relativo ao endereço de memória) Endereço
+de memória do evento pelo qual o processo está aguardando, processos em execução são marcados por um hífém (
+não há endereço fixo na memória para indicar)
+Priority (PRI) x Nice (NI)
+Um ponto que precisa ficar claro antes de seguirmos é a diferença entre PRIORIDADE (priority) e NICE.
+A prioridade de um processo é definida automaticamente e dinâmicamente pelo kernel Linux.
+O NICE é um atributo que permite ao administrador ou usuário influenciar a prioridade do processo. Quando
+usamos os comandos nice e renice para definir esse atributo, estamos definindo um NICE que irá
+consequentemente impactara prioridade. Por padrão, o NICE de um processo é0.
+Voltando ao conteúdo:
+4.3 Ciclo de vida processos – gestão e hierarquia
+4.4 Threads: conceitos, modelos e programação
+Composição de um processo
+O sistema operacional lida com uma infinidade de processos , sendo necessário meios de controle. Os
+processos apresentam um conjunto de características:
+- Proprietário/grupo do processo;
+- Estado do processo (em espera, em execução, etc);
+- Prioridade de execução;
+- Recursos de memória.
+Grupo de processos
+• Compartilhamento derecursos –Baseados em hierarquia de processos:
+• Um processopai criaprocessos filhos;
+• Os filhospodemexecutar omesmocódigo,ou trocá-lo;
+• Obtem-se uma árvore de processos.
+• Implicanadefiniçãodasemânticadetérminodeumprocesso:
+– o processo morre;
+– Toda sua descendência morre.
+Os processos devem interagir com o disco para armazenar e recuperar dados não voláteis. O
+disco físico é abstraído pelo Sistemas de Arquivos, de acordo com uma hierarquia: – Diretórios –
+Arquivos. Os diretórios estão freqüentemente organizados de acordo com uma hierarquia em
+árvore – Raiz (‘/’)
+- Diretório detrabalhode um processo ( ‘.’)
+– Caminho relativo / absoluto
+- Deve ter chamadas de sistema para acessar o Sistema de Arquivos.
+Exemplos de chamadas de sistema:
+Relativas ao Gerenciamento de processos: – fork(), waitpid(), exit(), execve(...),
+getpid()...Relativas aos Sinais – sigaction(), sigreturn(), sigprocmask(), kill()...
+Relativas ao Gerenciamento de arquivos – open(), close(), mknod(), read(), write(), pipe(),... –
+mkdir(),mount(),... Relativas aos Direitos de acesso
+Relativas ao Gerenciamento de tempo – Time()
+DIAGRAMA DE ESTADOS
+Agora vamos analisar as sáidas do comando relativo
+as threads
+ps -emo THREAD
+Todas as saídas em hífem significam que estão em execução.
+PRI – prioridade
+SCNT – switch count
+O kernel alterna entre threads em um esforço para compartilhar a CPU efetivamente; essa atividade é
+chamada de alternância de contexto . Quando um thread é executado pela duração de seu intervalo de
+tempo ou quando é bloqueado porque requer um recurso indisponível no momento, o kernel encontra outro
+thread para executar e o contexto muda para ele. O sistema também pode interromper o thread em
+execução no momento para executar um thread acionado por um evento assíncrono, como uma interrupção
+do dispositivo. Embora os dois cenários envolvam a alternância do contexto de execução da CPU , a
+alternância entre threads ocorre de forma síncrona em relação ao segmento atualmente em execução,
+enquanto as interrupções de manutenção ocorrem de maneira assíncrona em relação ao encadeamento
+atual. Além disso, as alternâncias de contexto entre processos são classificadas
+como voluntárias ou involuntárias. Uma opção de contexto voluntária ocorre quando um encadeamento é
+bloqueado porque requer um recurso indisponível. Uma alternância involuntária de contexto ocorre quando
+um encadeamento é executado pelo período de tempo ou quando o sistema identifica um encadeamento
+de prioridade mais alta a ser executado.
+Cada tipo de alternância de contexto é feito através de uma interface diferente. A troca
+de contexto voluntária é iniciada com uma chamada para a rotina sleep (), enquanto uma troca de contexto
+involuntária é forçada pela invocação direta do mecanismo de troca de contexto de baixo nível incorporado
+nas rotinas mi_switch () e setrunnable (). A manipulação de eventos assíncronos é acionada pelo hardware
+subjacente e é efetivamente transparente para o sistema. Nossa discussão se concentrará em como o
+tratamento de eventos assíncronos se relaciona à sincronização do acesso às estruturas de dados do kernel.
+pstree: esse comando mostra processos relacionados em formato de árvore. Sua sintaxe é:
+pstree -opção PID
+Entre as opções, tem-se:
+-u - mostra o proprietário do processo;
+-p - exibe o PID após o nome do processo;
+-c - mostra a relação de processos ativos;
+-G - usa determinados caracteres para exibir o resultado em um formato gráfico.
+Agora vamos visualizar as Threads:
+Qdo vc der o comando top:
+Agora aperte shift
