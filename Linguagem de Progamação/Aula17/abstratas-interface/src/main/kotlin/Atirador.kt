@@ -1,0 +1,3 @@
+interface Atirador {
+    fun atirar()
+}
