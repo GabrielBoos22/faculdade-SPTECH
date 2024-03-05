@@ -1,5 +1,6 @@
 package school.sptech.projeto03verboshttp
 
+import org.apache.coyote.Response
 import org.springframework.http.ResponseEntity
 import org.springframework.web.bind.annotation.DeleteMapping
 import org.springframework.web.bind.annotation.GetMapping
@@ -19,41 +20,43 @@ class MusicaController {
     @GetMapping
     fun listar(): ResponseEntity<List<Musica>>{
         if(listaMusicas.isEmpty()){
-            RETURN ResponseEntity.status(204).build()
+            return ResponseEntity.status(204).build()
         }
         return ResponseEntity.status(200).body(listaMusicas)
     }
 
     @GetMapping("/{indice}")
-    fun buscaPorIndice(@PathVariable indice: Int): Musica?{
+    fun buscaPorIndice(@PathVariable indice: Int): ResponseEntity<Musica?>{
         if (existeMusica(indice)){
-            return listaMusicas[indice]
+            return ResponseEntity.status(200).body(listaMusicas[indice])
         }
-        return null
+        return ResponseEntity.status(404).build()
     }
     @PostMapping
-    fun cadastrar(@RequestBody musica: Musica): Musica {
+    fun cadastrar(@RequestBody musica: Musica): ResponseEntity<Musica> {
         listaMusicas.add(musica)
-        return musica
+        return ResponseEntity.status(201).body(musica)
     }
 
     @PutMapping("/{indice}")
     fun atualizar(
             @PathVariable indice: Int,
             @RequestBody musica: Musica
-    ): Musica?{
+    ): ResponseEntity<Musica?>{
         if(existeMusica(indice)){
             listaMusicas.set(indice, musica)
-            return listaMusicas[indice]
+            return ResponseEntity.status(200).body(listaMusicas[indice])
         }
 
-        return null
+        return ResponseEntity.status(404).build()
     }
     @DeleteMapping("/{indice}")
-    fun deletar(@PathVariable indice: Int){
+    fun deletar(@PathVariable indice: Int):ResponseEntity<Void>{
         if(existeMusica(indice)){
             listaMusicas.removeAt(indice)
+            return ResponseEntity.status(204).build()
         }
+        return ResponseEntity.status(404).build()
     }
 
     fun existeMusica(indice: Int): Boolean {
