@@ -36,6 +36,8 @@ class UsuarioController {
         return ResponseEntity.status(200).body(listaUsuario)
     }
 
+    // 401 - Quem é voce?
+    // 403 - Aqui você não pode!
     @PostMapping("/autenticacao")
     fun autenticar(@RequestBody autenticacao: Autenticar): ResponseEntity<Usuario>{
         for (i in listaUsuario){
@@ -49,7 +51,7 @@ class UsuarioController {
                 }
             }
         }
-        return ResponseEntity.status(404).build()
+        return ResponseEntity.status(401).build()
     }
 
     @DeleteMapping("/autenticacao")
