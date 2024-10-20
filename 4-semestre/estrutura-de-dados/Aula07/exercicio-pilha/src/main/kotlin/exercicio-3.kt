@@ -1,33 +1,23 @@
-import java.util.*
+import java.util.Stack
 
-fun main() {
-    val numero = 9
-    println("Número $numero em binário:")
-    converterParaBinario(numero)
+fun inverterFrase(frase: String): String {
+    val pilha = Stack<Char>()
 
-    val numero2 = 12
-    println("Número $numero2 em binário:")
-    converterParaBinario(numero2)
+    for (indice in frase.indices) {
+        pilha.push(frase[indice])
+    }
 
-    val numero3 = 32
-    println("Número $numero3 em binário:")
-    converterParaBinario(numero3)
+    var fraseInvertida = ""
+    while (!pilha.isEmpty()) {
+        fraseInvertida += pilha.pop()
+    }
+
+    return fraseInvertida
 }
 
-fun converterParaBinario(numero: Int): Unit {
-    var n = numero
-    val pilha = Stack<Int>()
-
-    // Divida o número sucessivamente por 2 e empilhe os restos
-    while (n > 0) {
-        pilha.push(n % 2)
-        n /= 2
-    }
-
-    // Desempilhe e exiba os restos (que representam o binário)
-    while (!pilha.isEmpty()) {
-        print(pilha.pop())
-    }
-
-    println() // Para pular para a próxima linha após exibir o número binário
+fun main() {
+    val frase = "A pilha do gato"
+    val fraseInvertida = inverterFrase(frase)
+    println("Frase original: $frase")
+    println("Frase invertida: $fraseInvertida")
 }
