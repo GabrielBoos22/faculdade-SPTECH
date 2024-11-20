@@ -3,17 +3,15 @@ package org.example
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 fun main() {
-    var gerenciadorMusica = GerenciadorMusica()
+    var musicas: List<Musica>;
+
     while (true) {
         println("-------- Menu --------")
-        println("1 - Adicionar item")
-        println("2 - Remover item")
-        println("3 - Remover último item")
-        println("4 - Exibir itens")
-        println("5 - Buscar item")
-        println("6 - Atualizar item")
-        println("7 - Gerar relatório")
-        println("0 - Sair")
+        println("1 - Cadastrar Música")
+        println("2 - Exibir Lista")
+        println("3 - Gravar csv")
+        println("4 - Ler csv")
+        println("5 - Fim")
         println("Escolha uma opção:")
 
         when (readLine()?.toIntOrNull()) {
