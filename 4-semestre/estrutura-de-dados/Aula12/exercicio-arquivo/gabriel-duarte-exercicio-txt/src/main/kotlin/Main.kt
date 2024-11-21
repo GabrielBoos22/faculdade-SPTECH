@@ -23,18 +23,28 @@ fun main() {
 
         when (scanner.nextInt()) {
             1 -> {
+
                 println("Digite o ID da música:")
                 val id = scanner.nextInt()
+                scanner.nextLine() // Limpa a quebra de linha
+
                 println("Digite o título da música:")
-                val titulo = scanner.next()
+                val titulo = scanner.nextLine()
+
                 println("Digite a duração da música (em minutos):")
                 val duracao = scanner.nextDouble()
+                scanner.nextLine() // Limpa a quebra de linha
+
                 println("Digite a classificação da música:")
                 val classificacao = scanner.nextInt()
+                scanner.nextLine() // Limpa a quebra de linha
+
                 println("Digite o artista da música:")
-                val artista = scanner.next()
+                val artista = scanner.nextLine()
+
                 println("Digite o gênero da música:")
-                val genero = scanner.next()
+                val genero = scanner.nextLine()
+
 
                 val musica = Musica(id, titulo, duracao, classificacao, artista, genero)
                 musicas.add(musica)
@@ -142,21 +152,19 @@ fun main() {
 
                         when(tipo){
                             "00" -> {
-                                val conteudo = linha.substring(2,6)
-                                val semestre = linha.substring(6,11)
-                                val dataHora = linha.substring(11,30)
-                                val versao = linha.substring(30,32)
+                                val conteudo = linha.substring(3,8)
+                                val dataHora = linha.substring(9,27)
+                                val versao = linha.substring(28,29)
 
                                 println("Conteudo: $conteudo")
-                                println("Semestre: $semestre")
                                 println("Data/Hora: $dataHora")
                                 println("Versão: $versao")
                             }
                             "01" -> {
                                 //TRAILER
-                                val qtdRegistros = linha.substring(2, 12).toInt()
+                                val qtdRegistros = linha.substring(3, 12).toInt()
 
-                                if (qtdRegistros == listaAlunos.size) {
+                                if (qtdRegistros == listaMusicas.size) {
                                     println("Quantidade de registros: $qtdRegistros")
                                 } else {
                                     println("Quantidade de registros divergente: $qtdRegistros")
@@ -164,21 +172,22 @@ fun main() {
                             }
                             "02" -> {
                                 //CORPO
-                                val curso = linha.substring(2, 7).trim()
-                                val ra = linha.substring(7, 15).trim()
-                                val nome = linha.substring(15, 65).trim()
-                                val disciplina = linha.substring(65, 105).trim()
-                                val media = linha.substring(105, 110).replace(",",".").toDouble()
-                                val faltas = linha.substring(110, 113).toInt()
+                                val genero = linha.substring(3, 22).trim()
+                                val titulo = linha.substring(23, 42).trim()
+                                val artista = linha.substring(43, 62).trim()
+                                val duracao = linha.substring(63, 66).replace(",",".").toDouble()
+                                val classificacao = linha.substring(67, 69).toInt()
 
-                                listaAlunos.add(Aluno(ra, nome, curso, disciplina, media, faltas))
+                                listaMusicas.add(Musica(0, titulo, duracao, classificacao, artista, genero))
+
                             }
+
                         }
                     }
                     leitor.close()
                     arquivo.close()
-                    for (aluno in listaAlunos){
-                        println(aluno)
+                    listaMusicas.forEach {
+                        println(it.toString())
                     }
                 }
             7 -> {
