@@ -1,0 +1,6 @@
+00NOTA2023208-11-2023 19:56:0001
+02ADS  01222103Thiago Serafim                                    Estrutura de Dados                      06,00010
+02ADS  01222204Nathalia Obi                                      Programação Web                         10,00002
+02REDES04222000Ana Teixeira                                      Segurança da Informação                 06,00005
+02SIS  01222022Guilherme Nascimento                              Engenharia de Software                  07,00003
+010000000004

@@ -1,0 +1,9 @@
+00PACIENTE22-11-2024 12:39:0001
+0200101Fabio Reis                    Dor de garganta     false056,00027
+0200102Paula Souza                   Fratura na perna    true 070,50048
+0200103Ana Teixeira                  Dor de cabeca       false062,40040
+0200104Mario Bros                    Pedra no rim        true 065,70063
+0200105Catia Miranda                 Gestante            true 057,70027
+0200106Fernanda Machado              Faringite           false068,30065
+0200107Claudia Luz                   Sinusite            true 055,50080
+0100007
