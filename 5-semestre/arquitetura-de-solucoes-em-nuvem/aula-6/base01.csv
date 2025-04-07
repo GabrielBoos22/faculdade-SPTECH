@@ -1,0 +1,251 @@
+Codigo_Funcionario,Nome_Funcionario,Data_Solicitacao,Data_Inicio,Data_Fim,Dias_de_Ferias,Status_Solicitacao,Departamento,Prioridade,Observacoes
+111236775600,Olivia Araújo,19/02/2023,06/11/2024,01/11/2024,30,Rejeitado,Financeiro,Média,Urgente
+232510874673,Victor Carvalho,05/10/2024,05/01/2024,14/03/2024,5,Aprovado,RH,Alta,Urgente
+268829837441,Diego Lima,27/07/2024,30/01/2024,29/08/2024,10,Aprovado,Operações,Alta,Solicitação padrão
+193250717613,Victor Vieira,01/10/2024,19/04/2024,02/12/2024,1,Aprovado,Vendas,Baixa,
+652837257987,Pedro Rodrigues,25/07/2024,12/09/2024,05/11/2024,14,Em Análise,Marketing,Baixa,Urgente
+953610638267,Wendy Dias,21/09/2023,05/02/2024,29/07/2024,15,Aprovado,Financeiro,Baixa,Urgente
+491666944556,Lucas Silva,06/04/2024,04/08/2024,19/08/2024,10,Cancelado,Financeiro,Baixa,Solicitação padrão
+372183347299,Carlos Tavares,22/03/2024,14/07/2024,25/05/2024,30,Aprovado,Operações,Baixa,Solicitação padrão
+ABC123XYZ,Daniel Pinto,29/04/2023,06/12/2024,26/10/2024,10,Aprovado,RH,Alta,Urgente
+573891829464,Wendy Rodrigues,25/01/2024,30/11/2024,22/03/2024,1,Rejeitado,Financeiro,Alta,Solicitação padrão
+877444028496,Raquel Mendes,06/04/2023,16/09/2024,25/08/2024,1,Aprovado,Vendas,Média,Solicitação padrão
+767371767822,Camila Martins,16/02/2023,14/03/2024,25/06/2024,30,Pendente,Financeiro,Alta,Urgente
+725746819562,Pedro Moreira,21/08/2023,25/12/2024,11/01/2024,5,Aprovado,Marketing,Alta,Urgente
+358283762503,Olivia Rodrigues,17/04/2024,18/06/2024,17/11/2024,1,Em Análise,Marketing,Alta,Urgente
+776074458956,Carlos Costa,25/05/2023,05/06/2024,20/11/2024,1,Aprovado,TI,Baixa,Urgente
+166604780710,Raquel Moreira,17/07/2023,14/08/2024,29/11/2024,10,Aprovado,RH,Alta,Solicitação padrão
+103215655847,Carlos Mendes,29/03/2024,12/06/2024,13/01/2024,7,Aprovado,TI,Média,Urgente
+288155749471,Camila Costa,14/08/2023,22/11/2024,17/06/2024,5,Aprovado,Financeiro,Alta,Urgente
+662600923997,Yasmin Ribeiro,10/09/2023,28/10/2024,29/06/2024,10,Pendente,Vendas,Baixa,
+283375617190,Carlos Ribeiro,14/03/2023,02/03/2024,20/01/2024,7,Rejeitado,RH,Baixa,Urgente
+717947027944,João Costa,08/10/2024,05/03/2024,22/07/2024,5,Aprovado,Marketing,Baixa,Urgente
+901621402517,Sofia Correia,21/09/2023,22/10/2024,19/09/2024,7,Pendente,Operações,Média,Urgente
+681219033193,Xavier Santos,24/10/2024,21/02/2024,11/08/2024,14,Aprovado,Operações,Média,Urgente
+329517439178,Ursula Vieira,23/08/2023,29/11/2024,09/12/2024,10,Cancelado,Vendas,Média,Solicitação padrão
+359572674251,Pedro Rocha,26/02/2023,16/02/2024,29/01/2024,10,Rejeitado,Marketing,Baixa,Solicitação padrão
+576798805527,Yasmin Martins,19/04/2023,23/03/2024,14/10/2024,7,Aprovado,Operações,Alta,Urgente
+402874748033,Daniel Vieira,13/12/2024,03/08/2024,31/10/2024,7,Aprovado,Financeiro,Baixa,Urgente
+917718854631,Ricardo Costa,12/05/2023,03/02/2024,16/06/2024,14,Aprovado,Financeiro,Alta,Solicitação padrão
+115022852125,Gabriel Pinto,17/02/2024,23/02/2024,02/03/2024,365,Aprovado,Vendas,Média,Urgente
+295638597696,Fernanda Silva,18/06/2024,25/12/2024,16/08/2024,14,Aprovado,Operações,Média,Urgente
+758165237574,Karina Melo,11/07/2023,31/08/2024,20/03/2024,14,Pendente,Financeiro,Baixa,Urgente
+304809214876,Tiago Freitas,31/03/2024,24/04/2024,09/05/2024,10,Pendente,Vendas,Baixa,Urgente
+997334555090,Ricardo Rodrigues,10/07/2024,13/04/2024,31/05/2024,15,Aprovado,Operações,Baixa,
+870149858671,Nelson Oliveira,09/03/2024,28/10/2024,01/08/2024,10,Aprovado,TI,Alta,Urgente
+856124709982,Eduardo Costa,27/04/2023,30/04/2024,04/02/2024,1,Aprovado,Operações,Baixa,Urgente
+335001892751,Helena Gomes,30/11/2023,30/10/2024,27/03/2024,10,Pendente,Financeiro,Alta,Urgente
+620957073250,Wendy Pinto,29/11/2023,14/04/2024,02/03/2024,-1,Cancelado,Financeiro,Baixa,
+808650428899,Bob Pinto,16/04/2024,17/10/2024,12/12/2024,10,Aprovado,Marketing,Alta,Solicitação padrão
+188781812989,Raquel Ferreira,08/11/2024,08/03/2024,12/03/2024,7,Aprovado,Operações,Baixa,Solicitação padrão
+698631134113,Xavier Rodrigues,08/08/2024,21/01/2024,28/03/2024,20,Aprovado,TI,Alta,Solicitação padrão
+810071032649,Sofia Mendes,20/09/2024,28/08/2024,14/01/2024,10,Aprovado,TI,Alta,Urgente
+847618867747,Raquel Freitas,04/01/2023,01/10/2024,03/01/2024,-1,Pendente,TI,Baixa,Urgente
+790108250266,Ursula Nunes,17/05/2023,08/12/2024,08/05/2024,15,Rejeitado,Marketing,Média,Urgente
+700713850438,Karina Lima,20/10/2023,12/09/2024,16/06/2024,30,Aprovado,Vendas,Baixa,Urgente
+403298122878,Maria Rocha,04/03/2024,11/09/2024,13/01/2024,15,Aprovado com Restrições,Operações,Baixa,
+299924245614,Daniel Alves,28/03/2024,15/09/2024,10/09/2024,7,Aprovado,Financeiro,Baixa,Urgente
+995579437405,Diego Machado,12/11/2023,09/01/2024,28/10/2024,30,Aprovado,Vendas,Média,Urgente
+991809033616,Gabriel Rocha,29/04/2023,16/01/2024,03/03/2024,7,Aprovado,Operações,Baixa,
+631247351522,Olivia Barbosa,30/08/2024,11/07/2024,19/08/2024,7,Aprovado,Financeiro,Alta,Urgente
+939164468522,Xavier Machado,21/05/2024,25/12/2024,26/12/2024,10,Pendente,Financeiro,Baixa,
+234092898581,Xavier Lima,20/02/2024,11/06/2024,22/09/2024,10,Em Análise,RH,Alta,Solicitação padrão
+764693974140,Pedro Ferreira,26/02/2024,28/05/2024,02/01/2024,20,Pendente,Operações,Alta,
+200972613971,Bruno Silva,25/12/2023,06/04/2024,13/11/2024,7,Rejeitado,Operações,Alta,
+726958448455,Ursula Alves,09/08/2023,18/09/2024,10/03/2024,14,Aprovado,Marketing,Alta,Solicitação padrão
+203913593643,Eduardo Melo,19/03/2024,17/12/2024,15/06/2024,1,Aprovado com Restrições,Marketing,Alta,Solicitação padrão
+418866958538,Lucas Carvalho,23/08/2024,19/07/2024,04/03/2024,20,Aprovado,TI,Baixa,Solicitação padrão
+171341556613,Helena Gomes,20/10/2023,18/03/2024,20/06/2024,7,Aprovado,TI,Média,Solicitação padrão
+350332016963,Diego Carvalho,12/08/2023,26/03/2024,20/09/2024,14,Pendente,RH,Média,Solicitação padrão
+185439144160,Olivia Castro,22/11/2023,15/10/2024,20/01/2024,5,Aprovado,Operações,Baixa,
+841007118503,Zara Pinto,07/02/2024,16/09/2024,28/06/2024,20,Aprovado,RH,Baixa,
+233407190417,Eduardo Araújo,18/10/2024,26/03/2024,02/06/2024,14,Aprovado com Restrições,RH,Média,Solicitação padrão
+981317283002,Bob Mendes,05/05/2023,01/10/2024,04/07/2024,14,Aprovado,RH,Alta,
+553656706037,Yasmin Martins,11/09/2024,01/02/2024,01/11/2024,7,Aprovado com Restrições,Financeiro,Média,Urgente
+338350127662,Camila Silva,04/01/2024,22/04/2024,29/01/2024,10,Aprovado,Marketing,Média,Urgente
+696297690928,Isabela Mendes,13/07/2023,03/07/2024,24/11/2024,7,Aprovado,RH,Baixa,Urgente
+242377833823,Tiago Machado,14/06/2024,25/09/2024,30/06/2024,10,Aprovado,RH,Média,
+466627075879,Isabela Mendes,11/04/2024,09/11/2024,01/01/2022,999,Aprovado,Vendas,Alta,Urgente
+293998773555,Daniel Fernandes,18/05/2024,24/07/2024,07/10/2024,14,Pendente,RH,Alta,Solicitação padrão
+132929430924,Eduardo Nunes,27/08/2024,16/01/2024,09/08/2024,30,Aprovado,Operações,Baixa,Solicitação padrão
+471023935331,Amanda Correia,03/03/2023,04/03/2024,13/02/2024,15,Pendente,Operações,Baixa,Solicitação padrão
+551279877351,Tiago Alves,26/01/2023,29/10/2024,05/09/2024,7,Aprovado,Marketing,Média,Urgente
+301861548577,Ricardo Rodrigues,30/08/2023,09/04/2024,22/03/2024,10,Aprovado,TI,Baixa,Urgente
+773266822930,Victor Silva,25/06/2024,05/04/2024,21/04/2024,5,Aprovado,Financeiro,Baixa,Urgente
+331411253727,Helena Tavares,15/08/2024,15/06/2024,04/07/2024,0,Aprovado,RH,Alta,Urgente
+529102420176,Daniel Araújo,21/06/2023,19/01/2024,01/11/2024,20,Aprovado,RH,Alta,Urgente
+397577395658,Tiago Rocha,20/06/2023,29/02/2024,01/04/2024,7,Pendente,Operações,Baixa,
+940047122904,João Rodrigues,03/01/2023,19/11/2024,20/12/2024,14,Rejeitado,Financeiro,Média,Solicitação padrão
+910942050992,Yasmin Vieira,16/08/2023,15/02/2024,22/10/2024,5,Aprovado,Financeiro,Baixa,Solicitação padrão
+336303829474,Victor Machado,15/09/2024,24/08/2024,02/09/2024,14,Aprovado,Operações,Baixa,Solicitação padrão
+380918248262,Sofia Santos,25/05/2023,01/11/2024,01/05/2024,7,Rejeitado,Financeiro,Alta,Solicitação padrão
+753972539518,Tiago Tavares,10/10/2023,22/11/2024,21/03/2024,5,Em Análise,Operações,Baixa,Solicitação padrão
+548618935013,Victor Nunes,31/10/2023,19/06/2024,01/08/2024,7,Cancelado,Marketing,Alta,
+302469916713,Gabriel Lima,13/05/2024,24/05/2024,20/02/2024,10,Cancelado,Operações,Alta,
+710672717003,Bruno Oliveira,22/03/2024,06/09/2024,06/11/2024,5,Aprovado,Financeiro,Média,Solicitação padrão
+871554214829,Nelson Fernandes,29/08/2023,27/05/2024,25/02/2024,14,Aprovado,Marketing,Baixa,
+129800942658,Olivia Machado,28/12/2023,22/06/2024,30/01/2024,10,Cancelado,Marketing,Baixa,Urgente
+412697819582,Daniel Rodrigues,08/10/2023,13/01/2024,10/04/2024,14,Em Análise,Financeiro,Alta,Solicitação padrão
+668921008066,João Araújo,09/09/2024,21/04/2024,04/06/2024,5,Aprovado,Marketing,Baixa,Solicitação padrão
+813380646296,Sofia Dias,29/03/2023,09/02/2024,25/09/2024,999,Aprovado,Financeiro,Baixa,
+426132262097,Yasmin Machado,18/01/2023,02/03/2024,16/07/2024,14,Aprovado,RH,Baixa,Solicitação padrão
+536555529717,Diego Santos,26/07/2024,17/03/2024,31/01/2024,10,Aprovado,TI,Alta,Urgente
+282986124977,Fernanda Gomes,12/08/2024,17/02/2024,22/07/2024,14,Aprovado com Restrições,Operações,Alta,Solicitação padrão
+851761232244,Zara Lima,31/12/2023,21/10/2024,11/11/2024,14,Aprovado,Vendas,Baixa,Urgente
+894582387295,Fernanda Oliveira,13/10/2023,31/08/2024,18/07/2024,7,Pendente,Marketing,Baixa,
+728873985440,Alice Machado,27/08/2023,17/06/2024,14/04/2024,7,Aprovado,TI,Baixa,Urgente
+996961512626,Zara Tavares,08/01/2024,20/07/2024,23/01/2024,14,Aprovado,Marketing,Baixa,Urgente
+880177776551,Ursula Pinto,20/07/2023,15/06/2024,07/08/2024,10,Aprovado,Marketing,Média,Solicitação padrão
+359387648340,Victor Melo,21/03/2023,27/10/2024,28/06/2024,7,Aprovado,TI,Baixa,Solicitação padrão
+227148823705,Carlos Pinto,02/08/2023,15/12/2024,15/05/2024,5,Aprovado com Restrições,Operações,Média,
+761025431125,Bob Carvalho,23/08/2024,03/01/2024,05/03/2024,5,Rejeitado,RH,Baixa,Urgente
+631376098838,Olivia Lima,25/10/2024,22/08/2024,26/04/2024,14,Aprovado,Financeiro,Alta,
+772902961494,Lucas Rocha,05/08/2023,04/06/2024,24/07/2024,5,Aprovado com Restrições,Financeiro,Alta,Urgente
+335461111030,Carlos Pereira,20/06/2023,09/07/2024,26/09/2024,10,Cancelado,Marketing,Alta,Solicitação padrão
+551425807242,Carlos Machado,16/02/2023,03/06/2024,28/09/2024,999,Aprovado,Operações,Média,Solicitação padrão
+700275781527,Victor Rodrigues,05/08/2023,16/10/2024,09/02/2024,10,Pendente,Operações,Alta,Urgente
+770260163690,Yasmin Moreira,09/12/2023,15/06/2024,31/07/2024,999,Aprovado,Vendas,Baixa,Solicitação padrão
+619456600796,Camila Barbosa,30/04/2023,18/02/2024,26/03/2024,7,Aprovado,Vendas,Média,
+372879448630,Ricardo Oliveira,14/03/2024,10/01/2024,08/07/2024,15,Aprovado,TI,Alta,Urgente
+296971994574,Gabriel Alves,29/06/2023,20/06/2024,06/07/2024,1,Rejeitado,Operações,Média,Urgente
+482770415819,Ricardo Melo,04/09/2024,02/12/2024,07/10/2024,5,Aprovado,Operações,Alta,Urgente
+907405807644,Yasmin Rocha,15/04/2024,16/05/2024,20/12/2024,30,Aprovado,RH,Baixa,Solicitação padrão
+959461613276,Lucas Carvalho,02/01/2024,18/06/2024,08/08/2024,1,Aprovado,TI,Baixa,Solicitação padrão
+796058466213,Amanda Alves,21/09/2024,08/01/2024,14/08/2024,5,Pendente,Vendas,Alta,
+634591001927,Yasmin Souza,15/11/2024,21/01/2024,21/07/2024,5,Aprovado,Financeiro,Baixa,Solicitação padrão
+191963546899,Yasmin Pereira,13/04/2024,26/01/2024,21/09/2024,1,Rejeitado,Operações,Baixa,
+790399437458,Daniel Castro,11/05/2024,11/07/2024,20/04/2024,7,Pendente,Marketing,Baixa,Solicitação padrão
+479946732767,Fernanda Araújo,27/06/2024,22/05/2024,24/06/2024,10,Cancelado,Financeiro,Média,
+482112189184,Lucas Freitas,01/04/2024,06/11/2024,20/09/2024,7,Aprovado,Marketing,Alta,
+ABC123XYZ,Ursula Pinto,21/02/2024,22/06/2024,27/08/2024,5,Pendente,TI,Baixa,
+954566579049,Camila Fernandes,26/06/2024,13/08/2024,09/08/2024,7,Aprovado,TI,Média,Solicitação padrão
+936999765532,Amanda Pereira,31/07/2023,27/04/2024,23/07/2024,1,Cancelado,RH,Baixa,Urgente
+947512330263,Raquel Fernandes,23/04/2024,01/01/2024,24/04/2024,1,Aprovado,Marketing,Baixa,Urgente
+543989784130,João Castro,27/11/2023,03/05/2024,27/02/2024,1,Aprovado,Marketing,Alta,Urgente
+973636868905,Diego Pereira,27/11/2024,24/12/2024,16/07/2024,10,Pendente,RH,Média,Solicitação padrão
+661366643457,Gabriel Ferreira,07/12/2023,09/09/2024,24/12/2024,10,Pendente,TI,Alta,Solicitação padrão
+125834380850,Helena Carvalho,27/09/2023,10/07/2024,15/07/2024,7,Aprovado com Restrições,TI,Alta,Solicitação padrão
+919586431968,Camila Moreira,18/02/2023,17/11/2024,18/07/2024,999,Rejeitado,Vendas,Média,Solicitação padrão
+105647408417,Diego Fernandes,25/05/2023,01/07/2024,30/10/2024,1,Aprovado,Vendas,Alta,Urgente
+320008887327,João Rodrigues,24/09/2024,23/02/2024,28/11/2024,7,Pendente,Operações,Média,Urgente
+119338210355,Bob Alves,09/09/2023,18/12/2024,27/04/2024,14,Aprovado,Marketing,Alta,Urgente
+640189530137,Bruno Pereira,19/07/2024,22/05/2024,08/06/2024,7,Aprovado,RH,Baixa,Urgente
+736976336538,Diego Santos,07/10/2023,13/08/2024,12/03/2024,20,Pendente,RH,Média,Urgente
+513963123703,Zara Dias,11/08/2023,11/08/2024,08/01/2024,7,Rejeitado,Financeiro,Média,Urgente
+710000167940,Carlos Dias,18/07/2024,12/12/2024,02/10/2024,20,Aprovado,TI,Alta,Solicitação padrão
+523618088867,Amanda Tavares,08/11/2024,26/07/2024,11/04/2024,5,Aprovado,Vendas,Alta,Solicitação padrão
+546255813082,Karina Castro,28/06/2023,25/05/2024,25/09/2024,10,Aprovado,Vendas,Alta,
+133323006940,Pedro Ribeiro,12/12/2024,23/07/2024,04/02/2024,10,Aprovado,Marketing,Alta,Solicitação padrão
+117277375233,Diego Mendes,17/03/2024,24/04/2024,22/08/2024,5,Inválido,TI,Baixa,Urgente
+263067843057,Victor Vieira,07/02/2023,16/12/2024,15/05/2024,14,Aprovado,RH,Média,Urgente
+260719435023,Fernanda Tavares,28/03/2023,13/06/2024,13/09/2024,10,Aprovado,TI,Alta,Urgente
+391938443207,Raquel Castro,20/07/2024,26/05/2024,11/10/2024,14,Aprovado,Operações,Média,Solicitação padrão
+317082278725,Helena Ferreira,08/07/2023,17/09/2024,04/09/2024,5,Rejeitado,Financeiro,Média,Urgente
+720684800237,Alice Fernandes,22/11/2023,22/03/2024,09/07/2024,-1,Aprovado,TI,Baixa,
+112292740357,Bob Araújo,27/03/2024,11/07/2024,12/03/2024,5,Cancelado,Operações,Baixa,Urgente
+806286615895,Isabela Souza,11/01/2024,01/05/2024,09/11/2024,10,Rejeitado,Operações,Alta,Solicitação padrão
+216142797459,Wendy Oliveira,30/04/2024,31/10/2024,03/04/2024,30,Rejeitado,Vendas,Baixa,Solicitação padrão
+315695917067,Tiago Barbosa,24/11/2024,08/06/2024,30/12/2024,7,Aprovado,Financeiro,Baixa,
+961802618807,Lucas Ferreira,25/09/2024,19/11/2024,23/04/2024,7,Pendente,RH,Alta,
+817430153579,Maria Fernandes,11/09/2023,07/07/2024,31/05/2024,7,Rejeitado,Operações,Alta,Solicitação padrão
+180047970947,Gabriel Ribeiro,20/06/2023,02/10/2024,01/09/2024,7,Aprovado com Restrições,Vendas,Alta,Urgente
+179348947468,Raquel Carvalho,28/01/2024,23/10/2024,10/12/2024,1,Pendente,TI,Média,Solicitação padrão
+515643861466,Nelson Pereira,22/12/2024,21/08/2024,13/03/2024,10,Aprovado,Vendas,Baixa,
+165167038442,Zara Moreira,29/05/2024,12/09/2024,30/11/2024,14,Pendente,RH,Baixa,Urgente
+763946851022,Nelson Vieira,11/08/2023,29/10/2024,14/05/2024,999,Pendente,Operações,Média,Solicitação padrão
+330884165577,Raquel Alves,22/05/2023,15/02/2024,30/12/2024,999,Aprovado,Vendas,Baixa,
+648591342739,Daniel Oliveira,30/04/2024,14/12/2024,14/09/2024,7,Pendente,Financeiro,Média,Urgente
+434566594899,Ursula Silva,13/09/2023,04/01/2024,30/08/2024,15,Em Análise,RH,Alta,Urgente
+545161655090,Nelson Martins,15/04/2024,30/12/2024,14/06/2024,30,Aprovado,Marketing,Média,
+789267975162,Xavier Vieira,10/09/2024,28/03/2024,28/08/2024,15,Pendente,Operações,Baixa,Urgente
+975750203259,Alice Ferreira,03/02/2023,10/12/2024,17/09/2024,7,Aprovado,Operações,Alta,
+982733292628,Karina Rodrigues,23/08/2024,06/04/2024,11/10/2024,7,Aprovado,TI,Baixa,Solicitação padrão
+119185310595,Olivia Rodrigues,15/01/2023,13/05/2024,09/08/2024,7,Aprovado,RH,Média,Solicitação padrão
+675085395127,Lucas Melo,29/07/2023,24/05/2024,02/05/2024,15,Aprovado,Financeiro,Baixa,
+556743508736,Fernanda Ferreira,21/07/2024,12/06/2024,04/05/2024,7,Aprovado,TI,Média,Solicitação padrão
+434667351359,Zara Moreira,09/04/2024,03/01/2024,23/04/2024,30,Pendente,Operações,Média,Solicitação padrão
+911025170753,Helena Dias,02/09/2023,27/06/2024,15/10/2024,14,Cancelado,Vendas,Alta,Solicitação padrão
+183009476602,Carlos Castro,29/07/2024,24/11/2024,12/05/2024,5,Aprovado,Vendas,Média,Urgente
+797015871002,Diego Oliveira,24/09/2023,04/04/2024,27/06/2024,30,Aprovado,Vendas,Baixa,
+727144695055,Ursula Gomes,16/10/2023,01/04/2024,28/12/2024,0,Pendente,Financeiro,Média,
+262661608469,Zara Gomes,22/12/2023,08/04/2024,06/04/2024,20,Aprovado,Financeiro,Alta,Solicitação padrão
+522451050492,Gabriel Santos,28/06/2024,15/12/2024,28/02/2024,10,Aprovado,Operações,Média,Urgente
+897175905181,Raquel Carvalho,21/06/2023,14/05/2024,17/04/2024,999,Aprovado,Financeiro,Média,
+677476699566,Ursula Ferreira,20/08/2023,04/06/2024,05/04/2024,5,Pendente,Marketing,Baixa,Urgente
+777805319800,Yasmin Martins,24/07/2023,26/04/2024,03/08/2024,7,Aprovado,Operações,Alta,
+937820833395,Maria Ferreira,18/01/2023,27/09/2024,08/06/2024,5,Pendente,RH,Média,
+117392877438,Karina Dias,18/10/2024,12/07/2024,31/10/2024,5,Aprovado,Marketing,Média,
+237070769066,Raquel Martins,12/07/2024,09/05/2024,01/12/2024,10,Aprovado,Operações,Alta,Urgente
+208233730511,Ursula Moreira,24/08/2024,16/07/2024,20/06/2024,7,Aprovado com Restrições,Vendas,Média,Solicitação padrão
+773043330084,Diego Melo,02/06/2023,21/10/2024,22/05/2024,14,Aprovado,Operações,Média,Urgente
+438671990058,Daniel Rocha,09/05/2024,06/12/2024,24/08/2024,14,Aprovado,TI,Baixa,Urgente
+582518793606,Alice Moreira,03/09/2024,08/06/2024,23/04/2024,5,Aprovado,TI,Alta,Solicitação padrão
+896549912008,Daniel Costa,30/04/2024,22/06/2024,02/12/2024,14,Aprovado com Restrições,Financeiro,Alta,Urgente
+288838746358,Camila Dias,08/11/2024,15/10/2024,09/02/2024,15,Pendente,Marketing,Média,Urgente
+403807801454,Carlos Lima,17/04/2024,30/07/2024,08/04/2024,0,Aprovado,TI,Alta,Urgente
+907778106147,Olivia Araújo,25/05/2024,24/10/2024,19/07/2024,10,Cancelado,RH,Baixa,Urgente
+652135362676,Zara Barbosa,02/09/2024,20/08/2024,30/12/2024,10,Pendente,Operações,Média,Urgente
+531221729370,Camila Melo,01/09/2024,29/06/2024,11/02/2024,10,Aprovado com Restrições,TI,Alta,Solicitação padrão
+289249058817,João Vieira,12/05/2024,14/03/2024,07/09/2024,14,Pendente,Operações,Média,Urgente
+666687214844,Helena Rodrigues,16/08/2023,16/11/2024,08/04/2024,7,Pendente,Marketing,Média,Urgente
+847824625334,Nelson Freitas,07/04/2024,21/01/2024,05/05/2024,5,Aprovado,Vendas,Baixa,Urgente
+764025650607,Helena Ferreira,05/11/2024,11/04/2024,02/01/2024,5,Aprovado com Restrições,RH,Alta,
+203822275213,Bruno Martins,20/08/2023,07/06/2024,04/10/2024,5,Em Análise,Financeiro,Baixa,Solicitação padrão
+653468012023,Lucas Ribeiro,21/10/2023,26/07/2024,21/12/2024,10,Cancelado,Financeiro,Baixa,Solicitação padrão
+439708456887,Carlos Barbosa,19/01/2023,14/09/2024,11/03/2024,7,Aprovado,RH,Média,Urgente
+802415754705,Maria Correia,25/10/2024,16/12/2024,28/02/2024,5,Aprovado,Financeiro,Baixa,Urgente
+207301578620,Bob Moreira,21/06/2023,18/01/2024,25/09/2024,10,Aprovado,Financeiro,Média,
+574665306585,Karina Araújo,13/01/2024,01/01/2022,12/04/2024,7,Aprovado,Operações,Baixa,
+120260727293,Gabriel Nunes,03/03/2023,10/06/2024,18/04/2024,14,Aprovado com Restrições,Financeiro,Baixa,Urgente
+898967383290,Ursula Castro,17/10/2023,06/09/2024,19/07/2024,7,Aprovado,Vendas,Baixa,Urgente
+727529515966,Lucas Santos,25/10/2023,01/01/2024,24/05/2024,7,Aprovado,RH,Baixa,Solicitação padrão
+404806314748,João Correia,01/01/2024,27/03/2024,19/09/2024,5,Aprovado,TI,Alta,
+859150304138,Maria Nunes,17/09/2023,30/03/2024,05/12/2024,30,Cancelado,Marketing,Baixa,Urgente
+146375377597,Karina Melo,07/09/2023,13/04/2024,25/03/2024,7,Aprovado,Vendas,Média,
+952643419931,Ursula Costa,26/01/2023,11/07/2024,17/12/2024,1,Aprovado com Restrições,Operações,Baixa,Solicitação padrão
+765622393036,Fernanda Castro,09/07/2023,21/09/2024,06/09/2024,30,Pendente,Operações,Baixa,Urgente
+165110459232,Diego Correia,24/09/2024,13/08/2024,13/03/2024,15,Aprovado,Vendas,Média,Urgente
+142713714136,Bruno Fernandes,07/06/2024,17/06/2024,27/11/2024,14,Aprovado,TI,Baixa,
+571256862445,Bob Rocha,04/06/2024,12/03/2024,27/09/2024,7,Pendente,Marketing,Baixa,Urgente
+639352088585,Karina Gomes,26/05/2024,30/06/2024,14/03/2024,15,Aprovado,TI,Média,Urgente
+901245199131,Gabriel Silva,27/07/2023,01/12/2024,27/11/2024,5,Aprovado,Marketing,Média,
+686400954971,Daniel Dias,16/06/2024,07/05/2024,27/01/2024,30,Aprovado com Restrições,Operações,Média,Solicitação padrão
+584870389100,Isabela Alves,04/07/2024,03/11/2024,15/07/2024,20,Em Análise,Marketing,Baixa,Solicitação padrão
+369619589109,Zara Silva,16/04/2023,25/06/2024,22/05/2024,10,Aprovado,Operações,Baixa,Urgente
+527238508501,Daniel Tavares,15/10/2023,21/03/2024,04/04/2024,365,Aprovado,RH,Alta,Urgente
+532503940631,Gabriel Nunes,11/09/2024,26/10/2024,07/01/2024,15,Aprovado,Financeiro,Alta,Urgente
+976436866892,Victor Mendes,13/05/2023,31/03/2024,08/01/2024,5,Aprovado,TI,Média,Solicitação padrão
+412937964446,Camila Nunes,27/05/2024,20/03/2024,02/05/2024,1,Pendente,RH,Baixa,Solicitação padrão
+702724297012,Carlos Pinto,18/02/2024,04/03/2024,17/10/2024,15,Aprovado,TI,Baixa,Urgente
+893314478408,Helena Melo,05/01/2024,22/01/2024,03/05/2024,0,Aprovado,Financeiro,Alta,Solicitação padrão
+107833566652,Bruno Mendes,06/07/2023,08/07/2024,13/12/2024,14,Aprovado,Operações,Baixa,Solicitação padrão
+185426901784,Nelson Araújo,06/05/2024,02/08/2024,01/01/2022,5,Pendente,TI,Alta,Solicitação padrão
+335683298422,Raquel Costa,04/01/2024,01/10/2024,09/09/2024,5,Aprovado,TI,Média,Solicitação padrão
+998698283990,Eduardo Rocha,17/05/2024,29/08/2024,28/04/2024,20,Aprovado,Vendas,Baixa,Urgente
+115496274204,Xavier Pereira,10/05/2024,15/11/2024,17/12/2024,30,Rejeitado,Marketing,Alta,Solicitação padrão
+398644700072,Karina Rocha,15/03/2023,29/03/2024,03/10/2024,5,Pendente,TI,Média,Urgente
+994489063171,Alice Pereira,15/02/2024,10/03/2024,08/09/2024,7,Aprovado,Financeiro,Alta,Solicitação padrão
+636856934001,João Barbosa,06/12/2023,01/10/2024,11/02/2024,10,Aprovado,Vendas,Baixa,
+525485821433,Maria Alves,05/07/2023,23/04/2024,07/05/2024,14,Pendente,Marketing,Alta,Solicitação padrão
+530885735870,Zara Silva,14/01/2024,27/02/2024,24/05/2024,14,Aprovado,Operações,Alta,Urgente
+736981003624,Bruno Rocha,10/09/2023,14/08/2024,11/12/2024,7,Aprovado,TI,Baixa,Solicitação padrão
+663188943152,Maria Souza,25/11/2023,23/01/2024,02/06/2024,5,Pendente,Marketing,Alta,Urgente
+926919906588,Zara Freitas,09/03/2024,17/12/2024,15/02/2024,1,Aprovado,Financeiro,Baixa,Urgente
+396744016977,Sofia Pinto,21/02/2024,15/12/2024,17/02/2024,14,Aprovado,Financeiro,Alta,Solicitação padrão
+902471034489,Yasmin Lima,02/09/2024,28/06/2024,16/09/2024,7,Aprovado,Financeiro,Baixa,Solicitação padrão
+553295372373,Sofia Souza,15/05/2024,06/03/2024,14/06/2024,14,Rejeitado,Vendas,Baixa,
+960795394379,Helena Tavares,20/06/2023,26/11/2024,09/05/2024,14,Pendente,Operações,Média,Solicitação padrão
+762794914906,Isabela Melo,25/10/2023,10/04/2024,06/11/2024,5,Aprovado,TI,Baixa,Urgente
+557283082022,Fernanda Dias,02/06/2023,24/06/2024,19/02/2024,5,Pendente,Vendas,Alta,Urgente
+673550079759,Ricardo Castro,04/02/2024,23/06/2024,20/08/2024,-5,Aprovado,Marketing,Média,Urgente
+654346517488,Wendy Mendes,18/08/2023,29/10/2024,25/11/2024,10,Aprovado,Operações,Média,Urgente
+771617301218,Carlos Martins,25/04/2024,01/12/2024,10/11/2024,1,Aprovado,RH,Média,Solicitação padrão
+205896384613,Fernanda Ribeiro,27/05/2023,01/03/2024,09/06/2024,14,Aprovado,Marketing,Baixa,Solicitação padrão
+659201368726,Tiago Tavares,14/04/2024,09/02/2024,10/04/2024,14,Aprovado,Financeiro,Baixa,Solicitação padrão
+189926395674,Karina Ferreira,01/07/2023,15/08/2024,08/01/2024,7,Em Análise,Financeiro,Média,
+187396214339,Bruno Barbosa,25/04/2024,29/01/2024,18/02/2024,15,Pendente,Operações,Média,Solicitação padrão
+634319268508,Fernanda Pinto,08/08/2024,22/08/2024,16/12/2024,7,Rejeitado,RH,Alta,Solicitação padrão
+842788230854,Bruno Silva,21/04/2024,22/07/2024,28/02/2024,7,Em Análise,Marketing,Baixa,Solicitação padrão
+789007514063,Sofia Costa,11/03/2023,05/04/2024,08/08/2024,15,Aprovado,TI,Baixa,
+534125608633,Helena Freitas,21/04/2023,12/10/2024,25/03/2024,7,Aprovado,RH,Média,Solicitação padrão
+178659518503,Victor Alves,07/04/2023,28/07/2024,18/10/2024,1,Aprovado,Marketing,Média,Urgente
