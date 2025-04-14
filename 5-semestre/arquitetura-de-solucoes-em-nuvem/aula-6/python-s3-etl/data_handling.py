@@ -2,7 +2,7 @@ import pandas as pd
 from datetime import datetime as dt
 from time import gmtime, strftime
 import os
-
+    
 # leitura do csv como dataframe
 csv_path = '~/raw_files/base01.csv'
 csv_path = os.path.expanduser(csv_path)

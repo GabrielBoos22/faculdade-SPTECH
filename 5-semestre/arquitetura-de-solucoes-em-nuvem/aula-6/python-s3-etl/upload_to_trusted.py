@@ -11,7 +11,7 @@ csv_path = os.path.expanduser(csv_path)
 
 print('Carregando no bucket\n')
 
-bucket_name = 'trusted-bucket-202504030055'
+bucket_name = 'trusted-bucket-vaction'
 def upload_file(file_name, bucket, object_name=None):
     if object_name is None:
         object_name = os.path.basename(file_name)

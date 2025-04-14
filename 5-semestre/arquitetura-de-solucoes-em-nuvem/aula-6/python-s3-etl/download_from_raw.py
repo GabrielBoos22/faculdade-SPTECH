@@ -2,7 +2,7 @@ import boto3
 import os
 
 # Definir o nome do bucket e o caminho do arquivo
-bucket_name = 'raw-bucket-202504030055'
+bucket_name = 'raw-bucket-vaction'
 s3_file_path = 'base01.csv'
 local_file_path = '~/raw_files/base01.csv'
 local_file_path = os.path.expanduser(local_file_path)
