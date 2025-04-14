@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     file_key = record['s3']['object']['key']
     
     # Nome do bucket de destino
-    bucket_trusted = "trusted-20250405"
+    bucket_trusted = "trusted-bucket-vaction"
 
     try:
         # Baixa o arquivo do S3
