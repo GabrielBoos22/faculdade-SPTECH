@@ -1,0 +1,13 @@
+#;Objetivos do PI 1*;N ;T;Justificativa;;Critério;Descrição
+1;Calendário inteligente (evita datas inválidas);10;7;Evita erros e retrabalhos, tecnicamente exige integração com banco de dados de saldo de férias.;;S (Specific);Automatizar o processo de solicitação e aprovação de férias, integrando funcionalidades como calendário inteligente, notificações e FAQ.
+2;Sistema de notificação automática;9;6;Garante agilidade e visibilidade do status, requer configuração de disparos.;;M (Measurable);Reduzir em 70% o número de e-mails de solicitação de férias e retrabalho do RH no próximo trimestre.
+3;"	Aceite do gestor via plataforma ou e-mail";10;8;Parte central do processo;;;
+4;FAQ com perguntas frequentes;7;4;Reduz carga do RH com dúvidas recorrentes, simples tecnicamente (estático).;;R (Relevant);Gera impacto direto no tempo do RH e satisfação dos colaboradores, com benefícios mensuráveis.
+5;"Agendamento das férias com base no saldo	";10;8;Essencial para o processo ser autônomo e confiável, requer leitura em tempo real do saldo.;;T (Time-bound);Primeira versão funcional entregue em até 8 semanas, com validação via testes e feedbacks de usuários.
+6;"Aprovação automática com trilha de auditoria	";8;7;Aumenta a confiabilidade e rastreabilidade do processo.;;;
+7;"Histórico de solicitações do colaborador	";9;6;Promove transparência;;;
+8;"Painel para RH com visualização geral	";10;8;Suporte à gestão e tomada de decisão;;;
+9;"Exportação de relatórios (PDF/Excel)	";8;5;Agiliza entregas do RH e gestão;;;
+10;"Integração com políticas da empresa	";7;9;Garante conformidade;;;
+11;"Testes automatizados (validação de períodos)	";6;9;Importante para estabilidade do sistema, alto valor técnico.;;;Pedro Primon
+12;"Login com autenticação segura (SSO ou email)	";9;8;Segurança e acesso fluido, fundamental para escalabilidade.;;;Pedro Paulo
