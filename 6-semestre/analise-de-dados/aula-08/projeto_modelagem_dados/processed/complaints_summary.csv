@@ -1,0 +1,271 @@
+month,origin_city,complaint_group,airline,total_complaints
+2025-04,Congonhas,Atendimento,Azul,9
+2025-04,Congonhas,Atendimento,GOL,6
+2025-04,Congonhas,Atendimento,LATAM,8
+2025-04,Congonhas,Atraso/Cancelamento,Azul,3
+2025-04,Congonhas,Atraso/Cancelamento,GOL,17
+2025-04,Congonhas,Atraso/Cancelamento,LATAM,10
+2025-04,Congonhas,Bagagem,Azul,8
+2025-04,Congonhas,Bagagem,GOL,8
+2025-04,Congonhas,Bagagem,LATAM,5
+2025-04,Congonhas,Check-in,Azul,0
+2025-04,Congonhas,Check-in,GOL,14
+2025-04,Congonhas,Check-in,LATAM,7
+2025-04,Congonhas,Conforto,Azul,4
+2025-04,Congonhas,Conforto,GOL,2
+2025-04,Congonhas,Conforto,LATAM,5
+2025-04,Guarulhos,Atendimento,Azul,6
+2025-04,Guarulhos,Atendimento,GOL,4
+2025-04,Guarulhos,Atendimento,LATAM,9
+2025-04,Guarulhos,Atraso/Cancelamento,Azul,9
+2025-04,Guarulhos,Atraso/Cancelamento,GOL,5
+2025-04,Guarulhos,Atraso/Cancelamento,LATAM,5
+2025-04,Guarulhos,Bagagem,Azul,1
+2025-04,Guarulhos,Bagagem,GOL,6
+2025-04,Guarulhos,Bagagem,LATAM,6
+2025-04,Guarulhos,Check-in,Azul,8
+2025-04,Guarulhos,Check-in,GOL,8
+2025-04,Guarulhos,Check-in,LATAM,4
+2025-04,Guarulhos,Conforto,Azul,4
+2025-04,Guarulhos,Conforto,GOL,9
+2025-04,Guarulhos,Conforto,LATAM,10
+2025-04,São Paulo,Atendimento,Azul,10
+2025-04,São Paulo,Atendimento,GOL,10
+2025-04,São Paulo,Atendimento,LATAM,4
+2025-04,São Paulo,Atraso/Cancelamento,Azul,2
+2025-04,São Paulo,Atraso/Cancelamento,GOL,5
+2025-04,São Paulo,Atraso/Cancelamento,LATAM,12
+2025-04,São Paulo,Bagagem,Azul,3
+2025-04,São Paulo,Bagagem,GOL,8
+2025-04,São Paulo,Bagagem,LATAM,5
+2025-04,São Paulo,Check-in,Azul,7
+2025-04,São Paulo,Check-in,GOL,7
+2025-04,São Paulo,Check-in,LATAM,6
+2025-04,São Paulo,Conforto,Azul,8
+2025-04,São Paulo,Conforto,GOL,14
+2025-04,São Paulo,Conforto,LATAM,8
+2025-05,Congonhas,Atendimento,Azul,6
+2025-05,Congonhas,Atendimento,GOL,5
+2025-05,Congonhas,Atendimento,LATAM,5
+2025-05,Congonhas,Atraso/Cancelamento,Azul,7
+2025-05,Congonhas,Atraso/Cancelamento,GOL,9
+2025-05,Congonhas,Atraso/Cancelamento,LATAM,4
+2025-05,Congonhas,Bagagem,Azul,11
+2025-05,Congonhas,Bagagem,GOL,6
+2025-05,Congonhas,Bagagem,LATAM,5
+2025-05,Congonhas,Check-in,Azul,7
+2025-05,Congonhas,Check-in,GOL,13
+2025-05,Congonhas,Check-in,LATAM,5
+2025-05,Congonhas,Conforto,Azul,5
+2025-05,Congonhas,Conforto,GOL,4
+2025-05,Congonhas,Conforto,LATAM,4
+2025-05,Guarulhos,Atendimento,Azul,1
+2025-05,Guarulhos,Atendimento,GOL,1
+2025-05,Guarulhos,Atendimento,LATAM,9
+2025-05,Guarulhos,Atraso/Cancelamento,Azul,1
+2025-05,Guarulhos,Atraso/Cancelamento,GOL,12
+2025-05,Guarulhos,Atraso/Cancelamento,LATAM,4
+2025-05,Guarulhos,Bagagem,Azul,2
+2025-05,Guarulhos,Bagagem,GOL,4
+2025-05,Guarulhos,Bagagem,LATAM,9
+2025-05,Guarulhos,Check-in,Azul,7
+2025-05,Guarulhos,Check-in,GOL,10
+2025-05,Guarulhos,Check-in,LATAM,12
+2025-05,Guarulhos,Conforto,Azul,6
+2025-05,Guarulhos,Conforto,GOL,8
+2025-05,Guarulhos,Conforto,LATAM,2
+2025-05,São Paulo,Atendimento,Azul,5
+2025-05,São Paulo,Atendimento,GOL,9
+2025-05,São Paulo,Atendimento,LATAM,5
+2025-05,São Paulo,Atraso/Cancelamento,Azul,1
+2025-05,São Paulo,Atraso/Cancelamento,GOL,10
+2025-05,São Paulo,Atraso/Cancelamento,LATAM,8
+2025-05,São Paulo,Bagagem,Azul,3
+2025-05,São Paulo,Bagagem,GOL,7
+2025-05,São Paulo,Bagagem,LATAM,3
+2025-05,São Paulo,Check-in,Azul,3
+2025-05,São Paulo,Check-in,GOL,6
+2025-05,São Paulo,Check-in,LATAM,5
+2025-05,São Paulo,Conforto,Azul,4
+2025-05,São Paulo,Conforto,GOL,7
+2025-05,São Paulo,Conforto,LATAM,11
+2025-06,Congonhas,Atendimento,Azul,4
+2025-06,Congonhas,Atendimento,GOL,7
+2025-06,Congonhas,Atendimento,LATAM,3
+2025-06,Congonhas,Atraso/Cancelamento,Azul,1
+2025-06,Congonhas,Atraso/Cancelamento,GOL,11
+2025-06,Congonhas,Atraso/Cancelamento,LATAM,7
+2025-06,Congonhas,Bagagem,Azul,5
+2025-06,Congonhas,Bagagem,GOL,9
+2025-06,Congonhas,Bagagem,LATAM,8
+2025-06,Congonhas,Check-in,Azul,6
+2025-06,Congonhas,Check-in,GOL,8
+2025-06,Congonhas,Check-in,LATAM,4
+2025-06,Congonhas,Conforto,Azul,5
+2025-06,Congonhas,Conforto,GOL,7
+2025-06,Congonhas,Conforto,LATAM,9
+2025-06,Guarulhos,Atendimento,Azul,0
+2025-06,Guarulhos,Atendimento,GOL,5
+2025-06,Guarulhos,Atendimento,LATAM,11
+2025-06,Guarulhos,Atraso/Cancelamento,Azul,3
+2025-06,Guarulhos,Atraso/Cancelamento,GOL,11
+2025-06,Guarulhos,Atraso/Cancelamento,LATAM,11
+2025-06,Guarulhos,Bagagem,Azul,9
+2025-06,Guarulhos,Bagagem,GOL,5
+2025-06,Guarulhos,Bagagem,LATAM,2
+2025-06,Guarulhos,Check-in,Azul,8
+2025-06,Guarulhos,Check-in,GOL,11
+2025-06,Guarulhos,Check-in,LATAM,5
+2025-06,Guarulhos,Conforto,Azul,10
+2025-06,Guarulhos,Conforto,GOL,10
+2025-06,Guarulhos,Conforto,LATAM,6
+2025-06,São Paulo,Atendimento,Azul,5
+2025-06,São Paulo,Atendimento,GOL,10
+2025-06,São Paulo,Atendimento,LATAM,7
+2025-06,São Paulo,Atraso/Cancelamento,Azul,7
+2025-06,São Paulo,Atraso/Cancelamento,GOL,10
+2025-06,São Paulo,Atraso/Cancelamento,LATAM,7
+2025-06,São Paulo,Bagagem,Azul,1
+2025-06,São Paulo,Bagagem,GOL,10
+2025-06,São Paulo,Bagagem,LATAM,7
+2025-06,São Paulo,Check-in,Azul,6
+2025-06,São Paulo,Check-in,GOL,8
+2025-06,São Paulo,Check-in,LATAM,12
+2025-06,São Paulo,Conforto,Azul,3
+2025-06,São Paulo,Conforto,GOL,7
+2025-06,São Paulo,Conforto,LATAM,8
+2025-07,Congonhas,Atendimento,Azul,8
+2025-07,Congonhas,Atendimento,GOL,7
+2025-07,Congonhas,Atendimento,LATAM,8
+2025-07,Congonhas,Atraso/Cancelamento,Azul,4
+2025-07,Congonhas,Atraso/Cancelamento,GOL,11
+2025-07,Congonhas,Atraso/Cancelamento,LATAM,8
+2025-07,Congonhas,Bagagem,Azul,3
+2025-07,Congonhas,Bagagem,GOL,3
+2025-07,Congonhas,Bagagem,LATAM,7
+2025-07,Congonhas,Check-in,Azul,7
+2025-07,Congonhas,Check-in,GOL,6
+2025-07,Congonhas,Check-in,LATAM,1
+2025-07,Congonhas,Conforto,Azul,0
+2025-07,Congonhas,Conforto,GOL,13
+2025-07,Congonhas,Conforto,LATAM,8
+2025-07,Guarulhos,Atendimento,Azul,1
+2025-07,Guarulhos,Atendimento,GOL,9
+2025-07,Guarulhos,Atendimento,LATAM,10
+2025-07,Guarulhos,Atraso/Cancelamento,Azul,1
+2025-07,Guarulhos,Atraso/Cancelamento,GOL,7
+2025-07,Guarulhos,Atraso/Cancelamento,LATAM,7
+2025-07,Guarulhos,Bagagem,Azul,10
+2025-07,Guarulhos,Bagagem,GOL,11
+2025-07,Guarulhos,Bagagem,LATAM,9
+2025-07,Guarulhos,Check-in,Azul,4
+2025-07,Guarulhos,Check-in,GOL,6
+2025-07,Guarulhos,Check-in,LATAM,4
+2025-07,Guarulhos,Conforto,Azul,3
+2025-07,Guarulhos,Conforto,GOL,10
+2025-07,Guarulhos,Conforto,LATAM,11
+2025-07,São Paulo,Atendimento,Azul,1
+2025-07,São Paulo,Atendimento,GOL,14
+2025-07,São Paulo,Atendimento,LATAM,7
+2025-07,São Paulo,Atraso/Cancelamento,Azul,5
+2025-07,São Paulo,Atraso/Cancelamento,GOL,9
+2025-07,São Paulo,Atraso/Cancelamento,LATAM,4
+2025-07,São Paulo,Bagagem,Azul,3
+2025-07,São Paulo,Bagagem,GOL,8
+2025-07,São Paulo,Bagagem,LATAM,7
+2025-07,São Paulo,Check-in,Azul,7
+2025-07,São Paulo,Check-in,GOL,5
+2025-07,São Paulo,Check-in,LATAM,2
+2025-07,São Paulo,Conforto,Azul,4
+2025-07,São Paulo,Conforto,GOL,7
+2025-07,São Paulo,Conforto,LATAM,5
+2025-08,Congonhas,Atendimento,Azul,1
+2025-08,Congonhas,Atendimento,GOL,9
+2025-08,Congonhas,Atendimento,LATAM,4
+2025-08,Congonhas,Atraso/Cancelamento,Azul,8
+2025-08,Congonhas,Atraso/Cancelamento,GOL,9
+2025-08,Congonhas,Atraso/Cancelamento,LATAM,8
+2025-08,Congonhas,Bagagem,Azul,3
+2025-08,Congonhas,Bagagem,GOL,8
+2025-08,Congonhas,Bagagem,LATAM,4
+2025-08,Congonhas,Check-in,Azul,2
+2025-08,Congonhas,Check-in,GOL,6
+2025-08,Congonhas,Check-in,LATAM,4
+2025-08,Congonhas,Conforto,Azul,4
+2025-08,Congonhas,Conforto,GOL,2
+2025-08,Congonhas,Conforto,LATAM,9
+2025-08,Guarulhos,Atendimento,Azul,7
+2025-08,Guarulhos,Atendimento,GOL,4
+2025-08,Guarulhos,Atendimento,LATAM,9
+2025-08,Guarulhos,Atraso/Cancelamento,Azul,5
+2025-08,Guarulhos,Atraso/Cancelamento,GOL,12
+2025-08,Guarulhos,Atraso/Cancelamento,LATAM,2
+2025-08,Guarulhos,Bagagem,Azul,10
+2025-08,Guarulhos,Bagagem,GOL,6
+2025-08,Guarulhos,Bagagem,LATAM,8
+2025-08,Guarulhos,Check-in,Azul,3
+2025-08,Guarulhos,Check-in,GOL,5
+2025-08,Guarulhos,Check-in,LATAM,7
+2025-08,Guarulhos,Conforto,Azul,6
+2025-08,Guarulhos,Conforto,GOL,11
+2025-08,Guarulhos,Conforto,LATAM,9
+2025-08,São Paulo,Atendimento,Azul,6
+2025-08,São Paulo,Atendimento,GOL,6
+2025-08,São Paulo,Atendimento,LATAM,5
+2025-08,São Paulo,Atraso/Cancelamento,Azul,1
+2025-08,São Paulo,Atraso/Cancelamento,GOL,7
+2025-08,São Paulo,Atraso/Cancelamento,LATAM,10
+2025-08,São Paulo,Bagagem,Azul,6
+2025-08,São Paulo,Bagagem,GOL,8
+2025-08,São Paulo,Bagagem,LATAM,4
+2025-08,São Paulo,Check-in,Azul,9
+2025-08,São Paulo,Check-in,GOL,11
+2025-08,São Paulo,Check-in,LATAM,6
+2025-08,São Paulo,Conforto,Azul,0
+2025-08,São Paulo,Conforto,GOL,2
+2025-08,São Paulo,Conforto,LATAM,5
+2025-09,Congonhas,Atendimento,Azul,1
+2025-09,Congonhas,Atendimento,GOL,6
+2025-09,Congonhas,Atendimento,LATAM,6
+2025-09,Congonhas,Atraso/Cancelamento,Azul,9
+2025-09,Congonhas,Atraso/Cancelamento,GOL,9
+2025-09,Congonhas,Atraso/Cancelamento,LATAM,5
+2025-09,Congonhas,Bagagem,Azul,6
+2025-09,Congonhas,Bagagem,GOL,9
+2025-09,Congonhas,Bagagem,LATAM,8
+2025-09,Congonhas,Check-in,Azul,0
+2025-09,Congonhas,Check-in,GOL,6
+2025-09,Congonhas,Check-in,LATAM,8
+2025-09,Congonhas,Conforto,Azul,6
+2025-09,Congonhas,Conforto,GOL,7
+2025-09,Congonhas,Conforto,LATAM,7
+2025-09,Guarulhos,Atendimento,Azul,0
+2025-09,Guarulhos,Atendimento,GOL,10
+2025-09,Guarulhos,Atendimento,LATAM,7
+2025-09,Guarulhos,Atraso/Cancelamento,Azul,1
+2025-09,Guarulhos,Atraso/Cancelamento,GOL,6
+2025-09,Guarulhos,Atraso/Cancelamento,LATAM,1
+2025-09,Guarulhos,Bagagem,Azul,6
+2025-09,Guarulhos,Bagagem,GOL,1
+2025-09,Guarulhos,Bagagem,LATAM,8
+2025-09,Guarulhos,Check-in,Azul,6
+2025-09,Guarulhos,Check-in,GOL,5
+2025-09,Guarulhos,Check-in,LATAM,5
+2025-09,Guarulhos,Conforto,Azul,0
+2025-09,Guarulhos,Conforto,GOL,6
+2025-09,Guarulhos,Conforto,LATAM,5
+2025-09,São Paulo,Atendimento,Azul,5
+2025-09,São Paulo,Atendimento,GOL,3
+2025-09,São Paulo,Atendimento,LATAM,5
+2025-09,São Paulo,Atraso/Cancelamento,Azul,6
+2025-09,São Paulo,Atraso/Cancelamento,GOL,2
+2025-09,São Paulo,Atraso/Cancelamento,LATAM,8
+2025-09,São Paulo,Bagagem,Azul,0
+2025-09,São Paulo,Bagagem,GOL,9
+2025-09,São Paulo,Bagagem,LATAM,6
+2025-09,São Paulo,Check-in,Azul,3
+2025-09,São Paulo,Check-in,GOL,8
+2025-09,São Paulo,Check-in,LATAM,9
+2025-09,São Paulo,Conforto,Azul,4
+2025-09,São Paulo,Conforto,GOL,9
+2025-09,São Paulo,Conforto,LATAM,8
