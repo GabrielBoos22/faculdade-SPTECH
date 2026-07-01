@@ -1,0 +1,13 @@
+id_pedido,nome_colaborador,cargo_colaborador,area,nivel_colaborador,nome_aprovador,nivel_aprovador,nome_empresa,data_admissao,data_inicio,data_fim,dias_usufruidos,status_pedido,data_solicitacao,ultima_atualizacao,data_alteracao,decisao,observacao
+1,João Colab,Dev,TI,COLABORADOR,Ana Gestor TI,GESTOR,VAction Tecnologia,2025-02-01,2024-07-01,2024-07-16,16,APROVADO,2024-06-01,2024-06-05,2024-06-05,APROVADO,Aprovado pelo gestor
+2,Maria Colab,Dev,TI,COLABORADOR,Ana Gestor TI,GESTOR,VAction Tecnologia,2025-03-05,2024-08-15,2024-08-31,17,APROVADO,2024-07-20,2024-07-22,2024-07-22,APROVADO,Aprovado pelo gestor
+3,Lucas Colab,Analista,Financeiro,COLABORADOR,Pedro Gestor Fin,GESTOR,VAction Tecnologia,2025-04-10,2025-01-10,2025-01-25,16,APROVADO,2024-12-01,2024-12-05,2024-12-05,APROVADO,Aprovado pelo gestor
+4,Sofia Colab,Analista,Financeiro,COLABORADOR,Pedro Gestor Fin,GESTOR,VAction Tecnologia,2025-05-15,2025-03-05,2025-03-20,16,REPROVADO,2025-02-01,2025-02-04,2025-02-04,REPROVADO,Reprovado pelo RH
+5,Rafael Colab,Analista,Marketing,COLABORADOR,Luisa Gestor Marketing,GESTOR,VAction Tecnologia,2025-06-20,2025-05-10,2025-05-25,16,APROVADO,2025-04-01,2025-04-05,2025-04-05,APROVADO,Aprovado pelo gestor
+6,Ana Gestor TI,Gerente TI,TI,GESTOR,Carlos RH,RH,VAction Tecnologia,2024-07-10,2024-12-01,2024-12-16,16,APROVADO,2024-11-01,2024-11-05,2024-11-05,APROVADO,Aprovado pelo RH
+7,Pedro Gestor Fin,Gerente Financeiro,Financeiro,GESTOR,Marina RH,RH,VAction Tecnologia,2025-01-15,2025-06-01,2025-06-16,16,APROVADO,2025-05-01,2025-05-05,2025-05-05,APROVADO,Aprovado pelo RH
+8,João Colab,Dev,TI,COLABORADOR,Ana Gestor TI,GESTOR,VAction Tecnologia,2025-02-01,2025-07-15,2025-07-31,17,PENDENTE_GESTOR,2025-06-20,2025-06-22,,,
+9,Maria Colab,Dev,TI,COLABORADOR,Ana Gestor TI,GESTOR,VAction Tecnologia,2025-03-05,2025-08-01,2025-08-16,15,PENDENTE_GESTOR,2025-07-05,2025-07-06,,,
+10,Lucas Colab,Analista,Financeiro,COLABORADOR,Pedro Gestor Fin,GESTOR,VAction Tecnologia,2025-04-10,2025-09-10,2025-09-25,15,PENDENTE_GESTOR,2025-08-01,2025-08-05,,,
+11,Ana Gestor TI,Gerente TI,TI,GESTOR,Carlos RH,RH,VAction Tecnologia,2024-07-10,2025-10-01,2025-10-16,16,PENDENTE_RH,2025-09-01,2025-09-05,,,
+12,Pedro Gestor Fin,Gerente Financeiro,Financeiro,GESTOR,Marina RH,RH,VAction Tecnologia,2025-01-15,2025-11-05,2025-11-20,16,PENDENTE_RH,2025-10-01,2025-10-05,,,
